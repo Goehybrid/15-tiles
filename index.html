@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle Game</title>
+    <link href="styleheet.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <center>
+        <h1>Rearrange tiles to get a picture</h1>
+    </center>
+    
+    <div id="game">
+        <script>       
+            rearrangeTiles();
+            gameLogic();
+        </script>
+    </div>  
+    
+    <div id="table">
+        <form>
+            <h3>Pick a number between 1 and 15</h3>
+            
+            <div id="dial" name="dial">
+                <input type="button" name="button" id="button" value="1" onclick="gameLogic(1)" />
+                <input type="button" name="button" id="button" value="2" onclick="gameLogic(2)" />
+                <input type="button" name="button" id="button" value="3" onclick="gameLogic(3)" />
+                <input type="button" name="button" id="button" value="4" onclick="gameLogic(4)" /><br />
+                <input type="button" name="button" id="button" value="5" onclick="gameLogic(5)" />
+                <input type="button" name="button" id="button" value="6" onclick="gameLogic(6)" />
+                <input type="button" name="button" id="button" value="7" onclick="gameLogic(7)" />
+                <input type="button" name="button" id="button" value="8" onclick="gameLogic(8)" /><br />
+                <input type="button" name="button" id="button" value="9" onclick="gameLogic(9)" />
+                <input type="button" name="button" id="button" value="10" onclick="gameLogic(10)" />
+                <input type="button" name="button" id="button" value="11" onclick="gameLogic(11)" />
+                <input type="button" name="button" id="button" value="12" onclick="gameLogic(12)" /><br />
+                <input type="button" name="button" id="button" value="13" onclick="gameLogic(13)" />
+                <input type="button" name="button" id="button" value="14" onclick="gameLogic(14)" />
+                <input type="button" name="button" id="button" value="15" onclick="gameLogic(15)" /><br />
+            </div>
+                
+            <h2>Number of moves: <span id="move">0</span> </h2>
+        </form>
+    </div>
+
+</body>
+</html>

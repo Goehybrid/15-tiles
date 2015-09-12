@@ -1,0 +1,35 @@
+h2,h3{
+    text-align: center;   
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#game{
+    width: 400px;
+    margin: 10px auto;
+}
+#table{
+    border: 2px solid blue;   
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+}
+#dial{
+    text-align: center;  
+}
+#button{
+    margin: 3px 0px 3px 0px;
+    height: 30px;
+    width: 70px;
+}
+#move{
+    font-size: 40px;
+    vertical-align: middle;
+    color: red;
+}
+.pic:hover{
+    -webkit-box-shadow: -3px -3px 47px 14px rgba(105, 213, 239, 0.75);
+    -moz-box-shadow: -3px -3px 47px 14px rgba(105, 213, 239, 0.75);
+    box-shadow: -3px -3px 47px 14px rgba(105, 213, 239, 0.75);
+}
